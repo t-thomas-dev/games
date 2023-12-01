@@ -61,86 +61,47 @@
       </div>
     </header>
     <div class="container">
-      <div class="toast-container position-static">
-        <div
-          class="toast"
-          role="alert"
-          aria-live="assertive"
-          aria-atomic="true"
-        >
-          <div class="toast-header">
-            <img src="..." class="rounded me-2" alt="..." />
-            <strong class="me-auto">Bootstrap</strong>
-            <small class="text-body-secondary">just now</small>
-            <button
-              type="button"
-              class="btn-close"
-              data-bs-dismiss="toast"
-              aria-label="Close"
-            ></button>
-          </div>
-          <div class="toast-body">See? Just like this.</div>
-        </div>
-
-        <div
-          class="toast"
-          role="alert"
-          aria-live="assertive"
-          aria-atomic="true"
-        >
-          <div class="toast-header">
-            <img src="..." class="rounded me-2" alt="..." />
-            <strong class="me-auto">Bootstrap</strong>
-            <small class="text-body-secondary">2 seconds ago</small>
-            <button
-              type="button"
-              class="btn-close"
-              data-bs-dismiss="toast"
-              aria-label="Close"
-            ></button>
-          </div>
-          <div class="toast-body">
-            Heads up, toasts will stack automatically
-          </div>
-        </div>
-      </div>
-      <main class="form-signin d-flex align-items-center">
-        <form>
-          <img
-            class="mb-4"
-            src="/docs/5.3/assets/brand/bootstrap-logo.svg"
-            alt="icon"
-            width="72"
-            height="57"
-          />
-          <h1 class="h3 mb-3 fw-normal">Sign in</h1>
-
-          <div class="form-floating">
-            <input
-              type="email"
-              class="form-control"
-              id="floatingInput"
-              placeholder="name@example.com"
+      <main class="form-signin d-flex align-items-center py-4">
+        <div class="col"></div>
+        <div class="col">
+          <form id="login-form">
+            <img
+              class="mb-4"
+              src="/docs/5.3/assets/brand/bootstrap-logo.svg"
+              alt="icon"
+              width="72"
+              height="57"
             />
-            <label for="floatingInput">Email address</label>
-          </div>
-          <div class="form-floating">
-            <input
-              type="password"
-              class="form-control"
-              id="floatingPassword"
-              placeholder="Password"
-            />
-            <label for="floatingPassword">Password</label>
-          </div>
-
-          <button class="btn btn-primary w-100 py-2" type="submit">
-            Sign in
-          </button>
-          <p class="mt-5 mb-3 text-body-secondary">
-            © 2023 Thomas and respective authors
-          </p>
-        </form>
+            <h1 class="h3 mb-3 fw-normal">Sign in</h1>
+  
+            <div class="form-floating">
+              <input
+                type="email"
+                class="form-control"
+                id="floatingInput"
+                placeholder="name@example.com"
+              />
+              <label for="floatingInput">Email address</label>
+            </div>
+            <div class="form-floating">
+              <input
+                type="password"
+                class="form-control"
+                id="floatingPassword"
+                placeholder="Password"
+              />
+              <label for="floatingPassword">Password</label>
+            </div>
+  
+            <button class="btn btn-primary w-100 py-2" type="submit" id="login-form-submit">
+              Sign in
+            </button>
+            <p class="mt-5 mb-3 text-body-secondary">
+              © 2023 Thomas and respective authors
+            </p>
+          </form>
+        </div>
+        <div class="col"></div>
       </main>
     </div>
 
