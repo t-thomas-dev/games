@@ -7,6 +7,7 @@ loginButton.addEventListener("click", (e) => {
     const password = loginForm.password.value;
 
     if (username === "user" && password === "web_dev") {
+        document.cookie="SessionLoginSuccess-1";
         alert("✅ Login success");
         location.reload();
     } else {
