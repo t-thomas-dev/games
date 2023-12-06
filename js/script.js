@@ -14,3 +14,5 @@ loginButton.addEventListener("click", (e) => {
         alert("🛑 Incorrect username or password");
     }
 })
+
+import algoliasearch from 'algoliasearch';
