@@ -59,7 +59,17 @@
           </ul>
 
           <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
-            <div class="gcse-search"></div>
+            <div class="search-panel">
+              <div class="search-panel__filters">
+                <div id="brand-list"></div>
+              </div>
+        
+              <div class="search-panel__results">
+                <div id="searchbox"></div>
+                <div id="hits"></div>
+                <div id="pagination"></div>
+              </div>
+            </div>
           </form>
 
           <div class="text-end">
@@ -70,6 +80,9 @@
     </header>
     <!-- CONTENT-->
     <div class="container">
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-exclamation-triangle-fill" viewBox="0 0 16 16">
+        <path d="M8.982 1.566a1.13 1.13 0 0 0-1.96 0L.165 13.233c-.457.778.091 1.767.98 1.767h13.713c.889 0 1.438-.99.98-1.767L8.982 1.566zM8 5c.535 0 .954.462.9.995l-.35 3.507a.552.552 0 0 1-1.1 0L7.1 5.995A.905.905 0 0 1 8 5m.002 6a1 1 0 1 1 0 2 1 1 0 0 1 0-2"/>
+      </svg>
       <h1><strong>404</strong></h1>
       <h3>
         <strong>The page was not found. </strong>The page you are looking for
@@ -181,8 +194,6 @@
       integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
       crossorigin="anonymous"
     ></script>
-    <script async src="https://cse.google.com/cse.js?cx=e191589e9cf504a1b">
-    </script>
     <script src="js/script.js"></script>
   </body>
 </html>
