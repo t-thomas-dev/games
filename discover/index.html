@@ -33,7 +33,7 @@
           class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start"
         >
           <a
-            href="discover/"
+            href="index.html"
             class="d-flex align-items-center mb-2 mb-lg-0 link-body-emphasis text-decoration-none"
           >
             <svg
@@ -51,20 +51,29 @@
             class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0"
           >
             <li>
-              <a href="discover/" class="nav-link px-2 link-secondary">Play now</a>
+              <a href="index.html" class="nav-link px-2 link-secondary">Play now</a>
             </li>
             <li>
-              <a href="contact/" class="nav-link px-2 link-secondary">Requests</a>
+              <a href="requests.html" class="nav-link px-2 link-secondary">Requests</a>
             </li>
           </ul>
 
-          <button type="button" class="btn btn-outline-secondary">
-          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
-            <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
-          </svg>Search</button>
+          <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
+            <div class="search-panel">
+              <div class="search-panel__filters">
+                <div id="brand-list"></div>
+              </div>
+        
+              <div class="search-panel__results">
+                <div id="searchbox"></div>
+                <div id="hits"></div>
+                <div id="pagination"></div>
+              </div>
+            </div>
+          </form>
 
           <div class="text-end">
-              <a class="btn btn-outline-primary" href="auth/login/">Login</a>
+              <a class="btn btn-outline-primary" href="login.html">Login</a>
           </div>
         </div>
       </div>

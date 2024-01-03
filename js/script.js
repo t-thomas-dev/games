@@ -9,7 +9,7 @@ loginButton.addEventListener("click", (e) => {
     if (username === "user" && password === "webdev") {
         document.cookie="SessionLoginSuccess-1";
         alert("✅ Login success");
-        window.location.replace("https://t-thomas-dev.github.io/games/index.html");
+        window.location.replace("https://t-thomas-dev.github.io/games/");
     } else {
         alert("🛑 Incorrect username or password");
     }
