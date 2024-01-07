@@ -10,13 +10,12 @@
       integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
       crossorigin="anonymous"
     />
-    <link
-    rel="stylesheet"
-    href="https://cdn.jsdelivr.net/npm/instantsearch.css@8.1.0/themes/satellite-min.css"
-    integrity="sha256-p/rGN4RGy6EDumyxF9t7LKxWGg6/MZfGhJM/asKkqvA="
-    crossorigin="anonymous"
-    />
-    <link href="css/styles.css" rel="stylesheet" />
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <link href="/games/css/styles.css" rel="stylesheet" />
     <script type="text/javascript">
       (function(c,l,a,r,i,t,y){
           c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
@@ -29,14 +28,12 @@
     <!-- HEADER-->
     <header class="p-3 mb-3 border-bottom">
       <div class="container">
-        <div
-          class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start"
-        >
+        <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
           <a
             href="/games/"
             class="d-flex align-items-center mb-2 mb-lg-0 link-body-emphasis text-decoration-none"
           >
-            <svg fill="#000000" viewBox="0 0 256 256" id="Flat" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g opacity="0.2"> <path d="M149,159.832l23.01835-.09217a52.04589,52.04589,0,0,0,51.21853-61.03119l-.00853.00148,16.351,84.42309A28.00192,28.00192,0,0,1,192.204,207.796l.00166-.00173L149,159.832Z"></path> </g> <g> <path d="M192,108a8.00008,8.00008,0,0,0-8-8H152a8,8,0,0,0,0,16h32A8.00008,8.00008,0,0,0,192,108Z"></path> <path d="M104,100H96V92a8,8,0,0,0-16,0v8H72a8,8,0,0,0,0,16h8v8a8,8,0,0,0,16,0v-8h8a8,8,0,0,0,0-16Z"></path> <path d="M247.45752,181.74316c-.00781-.04394-.01611-.08789-.02441-.13183L231.08252,97.18848c-.01227-.06348-.03217-.123-.04584-.18555a60.08632,60.08632,0,0,0-59.01861-49.2627h-.02344L84.00439,48A59.86832,59.86832,0,0,0,24.90625,97.58887c-.0127.07226-.02441.14551-.03516.21777L8.57715,181.60547c-.00879.0459-.01709.0918-.02539.13769A36.00238,36.00238,0,0,0,69.45752,213.457q.21753-.2168.416-.44726l40.729-45.02442,34.84961-.13916,40.67139,45.14893q.20361.2373.42822.46191a36.00125,36.00125,0,0,0,60.90576-31.71387ZM107.00684,152a7.99986,7.99986,0,0,0-5.90039,2.63281L57.99219,202.293a20.00156,20.00156,0,0,1-33.69483-17.707l16.3501-84.08789q.04688-.24464.0791-.48633A43.90321,43.90321,0,0,1,84.02783,64l87.99756-.25977a44,44,0,1,1-.03955,88Zm108.4707,55.69141a20.03414,20.03414,0,0,1-17.45606-5.39453l-31.11169-34.53614,5.10828-.02051a60.00525,60.00525,0,0,0,50.94067-28.34961l8.75269,45.19239A20.02155,20.02155,0,0,1,215.47754,207.69141Z"></path> </g> </g></svg>
+          <img src="https://www.svgrepo.com/show/363630/game-controller-duotone.svg" alt="Games Logo" width="48" height="48">
           </a>
 
           <ul
@@ -56,7 +53,31 @@
           </svg>Search</a>
 
           <div class="text-end">
-              <a class="btn btn-outline-primary" href="/games/auth/login/">Login</a>
+              <a class="btn btn-outline-primary mb-3 mb-lg-0 me-lg-3" href="/games/auth/login/">Login</a>
+
+              <div class="btn-group" role="group" aria-label="Contact us">
+                <a href="/games/contact/?utm_medium=header-comment" class="btn btn-outline-light" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="Contact us/comments">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chat-left-dots-fill" viewBox="0 0 16 16">
+                    <path d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H4.414a1 1 0 0 0-.707.293L.854 15.146A.5.5 0 0 1 0 14.793zm5 4a1 1 0 1 0-2 0 1 1 0 0 0 2 0m4 0a1 1 0 1 0-2 0 1 1 0 0 0 2 0m3 1a1 1 0 1 0 0-2 1 1 0 0 0 0 2"/>
+                  </svg>
+                </a>
+                <a href="/games/contact/?utm_medium=header-suggest" class="btn btn-outline-warning" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="Ideas and suggestions(game requests)">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-lightbulb-fill" viewBox="0 0 16 16">
+                    <path d="M2 6a6 6 0 1 1 10.174 4.31c-.203.196-.359.4-.453.619l-.762 1.769A.5.5 0 0 1 10.5 13h-5a.5.5 0 0 1-.46-.302l-.761-1.77a2 2 0 0 0-.453-.618A5.98 5.98 0 0 1 2 6m3 8.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1l-.224.447a1 1 0 0 1-.894.553H6.618a1 1 0 0 1-.894-.553L5.5 15a.5.5 0 0 1-.5-.5"/>
+                  </svg>
+                </a>
+                <a href="/games/contact/?utm_medium=header-report-problem" class="btn btn-outline-danger" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="Report a problem">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bug-fill" viewBox="0 0 16 16">
+                    <path d="M4.978.855a.5.5 0 1 0-.956.29l.41 1.352A5 5 0 0 0 3 6h10a5 5 0 0 0-1.432-3.503l.41-1.352a.5.5 0 1 0-.956-.29l-.291.956A5 5 0 0 0 8 1a5 5 0 0 0-2.731.811l-.29-.956z"/>
+                    <path d="M13 6v1H8.5v8.975A5 5 0 0 0 13 11h.5a.5.5 0 0 1 .5.5v.5a.5.5 0 1 0 1 0v-.5a1.5 1.5 0 0 0-1.5-1.5H13V9h1.5a.5.5 0 0 0 0-1H13V7h.5A1.5 1.5 0 0 0 15 5.5V5a.5.5 0 0 0-1 0v.5a.5.5 0 0 1-.5.5zm-5.5 9.975V7H3V6h-.5a.5.5 0 0 1-.5-.5V5a.5.5 0 0 0-1 0v.5A1.5 1.5 0 0 0 2.5 7H3v1H1.5a.5.5 0 0 0 0 1H3v1h-.5A1.5 1.5 0 0 0 1 11.5v.5a.5.5 0 1 0 1 0v-.5a.5.5 0 0 1 .5-.5H3a5 5 0 0 0 4.5 4.975"/>
+                  </svg>
+                </a>
+                <a href="/games/contact/?utm_medium=header-report-game" class="btn btn-outline-danger" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="Report broken/blocked game">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-ban" viewBox="0 0 16 16">
+                    <path d="M15 8a6.97 6.97 0 0 0-1.71-4.584l-9.874 9.875A7 7 0 0 0 15 8M2.71 12.584l9.874-9.875a7 7 0 0 0-9.874 9.874ZM16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0"/>
+                  </svg>
+                </a>
+              </div>
           </div>
         </div>
       </div>
